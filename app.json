@@ -1,0 +1,10 @@
+{
+  "expo": {
+    "name": "spaceTravelMobile",
+    "slug": "spaceTravelMobile",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
