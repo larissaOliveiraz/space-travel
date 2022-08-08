@@ -34,7 +34,7 @@ export function Home() {
           experience!
         </SubTitle>
 
-        <Button activeOpacity={0.8} onPress={handleExplore}>
+        <Button>
           <ButtonTitle>EXPLORE</ButtonTitle>
         </Button>
       </Content>

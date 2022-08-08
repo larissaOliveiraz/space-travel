@@ -38,7 +38,7 @@ export const SubTitle = styled.Text`
   line-height: 25px;
 `;
 
-export const Button = styled(TouchableOpacity)`
+export const Button = styled.View`
   width: 200px;
   height: 200px;
 

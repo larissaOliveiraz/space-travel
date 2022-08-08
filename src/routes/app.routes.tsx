@@ -21,12 +21,11 @@ export function AppRoutes() {
         screenOptions={{
           headerShown: false,
           tabBarActiveTintColor: theme.colors.prymary,
-          tabBarInactiveTintColor: theme.colors.shape,
+          tabBarInactiveTintColor: "#A3A3A3",
           tabBarShowLabel: false,
           tabBarStyle: {
             paddingVertical: Platform.OS === "ios" ? 20 : 0,
             height: 60,
-            backgroundColor: theme.colors.secondary,
           },
         }}
       >
@@ -35,7 +34,7 @@ export function AppRoutes() {
           component={Home}
           options={{
             tabBarIcon: ({ color }) => (
-              <Feather name="home" size={22} fill={color} />
+              <Feather name="home" size={24} color={color} />
             ),
           }}
         />
@@ -44,7 +43,7 @@ export function AppRoutes() {
           component={Destination}
           options={{
             tabBarIcon: ({ color }) => (
-              <Feather name="map-pin" size={22} fill={color} />
+              <Feather name="map-pin" size={24} color={color} />
             ),
           }}
         />
@@ -53,7 +52,7 @@ export function AppRoutes() {
           component={Crew}
           options={{
             tabBarIcon: ({ color }) => (
-              <Feather name="users" size={22} fill={color} />
+              <Feather name="users" size={24} color={color} />
             ),
           }}
         />
@@ -62,7 +61,7 @@ export function AppRoutes() {
           component={Tecnology}
           options={{
             tabBarIcon: ({ color }) => (
-              <Feather name="cpu" size={22} fill={color} />
+              <Feather name="cpu" size={24} color={color} />
             ),
           }}
         />
