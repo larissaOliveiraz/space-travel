@@ -14,6 +14,12 @@
 ```
 yarn
 ```
+```
+git reset --hard HEAD
+```
+```
+git reset --hard HEAD^
+```
 
 - Rodar a API fake:
 ```
